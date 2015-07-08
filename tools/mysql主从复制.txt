@@ -33,6 +33,8 @@ master-connect-retry=60
 replicate-do-db=test
 log-slave-update
 
+grant replication slave on *.* to ‘slaver’@’%’ identified by ‘slaver’; 
+
 
 修改my.cnf后的master-host不行，查了下终于得知原因：
 

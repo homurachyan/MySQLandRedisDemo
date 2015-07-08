@@ -8,3 +8,7 @@ Windows下MySQL多实例运行
 
 C:\ProgramData\MySQL2\MySQL Server 5.6 mysqld-nt.exe -remove
 
+
+启动
+"M:\WorkStation\MySQL2\MySQL Server 5.6\bin\mysql.exe" "--defaults-file=M:\WorkStation\MySQL2\MySQL Server 5.6\my.ini" "-uroot" "-p"
+
